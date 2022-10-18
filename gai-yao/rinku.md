@@ -1,10 +1,10 @@
 # 公式リンク
 
-**Websites**\
+Webサイト\
 [Website](https://www.euler.finance/#/)\
 [DApp](https://app.euler.finance/)
 
-**Governance**\
+**ガバナンス**\
 ****[Forum](https://forum.euler.finance/)\
 [Off-chain (Snapshot)](https://snapshot.org/#/eulerdao.eth)\
 [On-chain (WithTally)](https://www.tally.xyz/governance/eip155:1:0xd8E2114f6bCbaee83CDEB1bD6650a28BBcF144D5)
@@ -21,24 +21,24 @@
 [Uniswap v3 (EUL/WETH)\
 ](https://info.uniswap.org/#/pools/0xb003df4b243f938132e8cadbeb237abc5a889fb4)[Uniswap v3 (EUL/USDC)](https://info.uniswap.org/#/pools/0x175cc167a320623c6e7f23a41f99e5bb696e3f34)
 
-**Social**\
+ソーシャルメディア\
 [Twitter](https://twitter.com/eulerfinance)\
 [Discord](https://t.co/yqSIrrJfWi?amp=1)\
 [Telegram](https://t.me/eulerfinance\_official)\
 [Telegram Announcements](https://t.me/eulerfinance)
 
-**Security**\
+セキュリティ\
 [Immunefi Bug Bounty](https://immunefi.com/bounty/euler/)\
 [Report A Bug](mailto:security@euler.xyz)
 
-**Content**\
+コンテンツ\
 [Blog](https://blog.euler.finance/)\
 [Newsletter](https://newsletter.euler.finance/)
 
-**Videos**\
+ビデオ\
 [YouTube](https://www.youtube.com/channel/UCoeP9dvbKoL17nqkNnUJBkg)
 
-**Dashboards**\
+ダッシュボード\
 [Tokenterminal](https://www.tokenterminal.com/terminal/projects/euler)\
 [DefiLlama](https://defillama.com/protocol/euler)\
 [Zerion](https://zerion.io/)\
