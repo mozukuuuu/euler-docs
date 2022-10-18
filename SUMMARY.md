@@ -13,3 +13,5 @@
   * [入金](app/i/ru-jin.md)
   * [出金](app/i/chu-jin.md)
   * [借りる](app/i/riru.md)
+  * [返済](app/i/fan-ji.md)
+  * [鋳造(Mint)](app/i/zhu-zao-mint.md)

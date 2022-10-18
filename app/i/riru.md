@@ -2,23 +2,23 @@
 
 ### About
 
-Borrowing assets on Euler creates a loan that users can repay at any time. Borrowers pay the Borrow APY rate to lenders. Note that users must first deposit collateral before they can borrow. All loans are over-collateralised, which means that users must deposit more value into the protocol than they can borrow.
+Eulerで資産を借りると、いつでも返済できるローンが作成されます。借り手は貸し手に対し、借入金利を支払います。ユーザーは借入を行う前にまず担保を預けなければならないことに注意してください。すべてのローンは担保過剰であり、ユーザーは借りられる金額よりも多くの価値をプロトコルに預けなければならないことを意味する。
 
 ### Step-by-step
 
-1. Select `Borrow` in the `Quick Action` menu.
-2. Select the Euler sub-account that you want to borrow on.
-   * Ensure that you have sufficient collateral deposited in the sub-account, and the asset is entered into the market.
-3. Select the asset you are interested in.
-4. Enter the amount you wish to borrow:
-   * The `Max` button is representative of Liquidation x 1.5 to give a better UI experience, but we do not recommend you borrow more than `Safe Max` (unless it is a self-collateralized loan).
-   * Select `Safe Max` to borrow enough such that your Euler sub-account will result in having a health score of 1.25 (not supported for self-collateralized loans).
-   * Select `Liquidation` to borrow enough such that your Euler sub-account will end up at a health score of 1 (right on the edge of a liquidation).
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
+1. `Quick Action`から`Borrow`を選択します。
+2. 借入したいEulerアカウントを選択します。十分な担保を預けていることを確認し、資産を市場に投入する。
+3. ご希望の資産を選びます。
+4. 借入金額を入力します。
+   * `Max`ボタンは、より良いUI体験を提供するために清算まで x 1.5の代表的なものですが、`Safe Max`以上の借入はお勧めしません。（自己担保のローンを除く）
+   * `Safe Max`を選択すると、Eulerアカウントの健康状態が1.25になるような借入を行うことができます。（自己担保ローンには対応していません）
+   * `Liquidation`を選択すると、Eulerアカウントの健康状態が1（清算寸前）になる借入を行うことができます。
 
 ### FAQ
 
-**I've deposited an asset, but cannot borrow.**\
-\*\*\*\*Make your transactions were completed successfully. You can only borrow using approved collateral-tier assets, unless you're borrowing the same asset you've deposited. Make sure your collateral is sufficient for the amount you're trying to borrow. Otherwise, please create a support ticket in [Discord](https://discord.gg/CdG97VSYGk).
-
-**How come I can't borrow with an isolated asset?**\
-\*\*\*\*Note that isolated and Cross assets cannot be used as collateral, but Cross assets can be borrowed alongside other assets, while Isolated assets cannot. Euler aims to curb risk by limiting collateral tier assets to certain tokens with lower risk profiles.
+**資産を預けたが、借りられない。**\
+お客様の取引が正常に完了したことを確認してください。預けた資産と同じ資産を借りるのでなければ、承認された担保レベルの資産を使ってのみ借りることができます。担保が借りようとしている金額に対して十分であることを確認してください。そうでない場合は、[Discord](https://discord.gg/CdG97VSYGk)でサポートチケットを作成してください。 \
+**なぜIsolatedの資産は借りられないのですか？** \
+Isolated資産とCross資産は担保として使用できませんが、Cross資産は他の資産と一緒に借りることができますが、Isolated資産はできませんので、ご注意ください。Eulerは、担保層資産をリスクプロファイルの低い特定のトークンに限定することで、リスクを抑制することを目的としています。

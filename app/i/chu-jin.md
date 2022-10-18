@@ -6,7 +6,7 @@
 
 ### Step-by-step
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 1. `Quick Action`で`Withdraw`を選択し、引き出したい資産とEulerアカウントを選択します。
 2. ご希望の資産を選びます。
