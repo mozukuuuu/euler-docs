@@ -8,25 +8,25 @@
 
 **Transfer ETokens**
 
-1. Ensure that you have sufficient deposits in the sub-account you are transferring from.
-2. Select the Euler sub-account that you want to transfer from.
-3. Select the Euler sub-account that you want to transfer to.
-4. Select the asset you are interested in.
-5. Enter the amount you wish to transfer:
-   * Select `Max` to transfer all the selected asset deposits (or maximum amount possible based on your 'from' sub-account positions).
-   * Select `Safe Max` to transfer enough such that your 'from' Euler sub-account will result in having a health score of 1.25.
+1. 転送元のサブアカウントに十分な預金があることを確認してください。
+2. 転送元のEulerサブアカウントを選択します。
+3. 転送先のEulerサブアカウントを選択します。
+4. ご希望の資産を選びます。
+5. 転送する金額を入力する。
+   * `Max`を選択すると、選択したすべての資産またはサブアカウントのポジションに基づく可能な最大量の預金を転送することができます。
+   * `Safe Max`を選択し、Eulerサブアカウントの健康状態が1.25になるような転送を行います。
 
 **Transfer DTokens**
 
-1. Ensure that you have sufficient debt tokens in the sub-account you are transferring from.
-2. Select the Euler sub-account that you want to transfer from.
-3. Select the Euler sub-account that you want to transfer to.
-4. Select the asset you are interested in.
-5. Enter the amount you wish to transfer:
-   * Select `Max` to transfer all the selected asset debt (or maximum amount possible based on your 'to' sub-account positions).
-   * Select `Safe Max` to transfer enough such that your 'to' Euler sub-account will result in having a health score of 1.25 (not supported for self-collateralized loans).
+1. 転送元のサブアカウントに十分な債務資産があることを確認してください。
+2. 転送元のEulerサブアカウントを選択します。
+3. 転送先のEulerサブアカウントを選択します。
+4. ご希望の資産を選びます。
+5. 転送する金額を入力する。
+   * `Max`を選択すると、選択したすべての資産負債またはサブアカウントのポジションに基づく可能な最大量を転送することができます。
+   * `Safe Max`を選択して、Eulerサブアカウントの健康状態が1.25になるような転送を行います。（自己担保融資には対応していません）
 
 ### FAQ
 
-**Can I transfer multiple assets?**\
-\*\*\*\*Yes, you will need to make multiple actions sent to the transaction builder.
+複数の資産を転送することはできますか？ \
+はい、`transaction builder`を使用して複数のアクションを行うことができます。

@@ -18,3 +18,4 @@
   * [焼却(Burn)](app/i/shao-que-burn.md)
   * [サブアカウント](app/i/sabuakaunto.md)
   * [転送(Transfer)](app/i/zhuan-song-transfer.md)
+  * [交換(Swap)](app/i/jiao-huan-swap.md)
