@@ -6,7 +6,7 @@
 
 ### Step-by-step
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 1. ウォレットに十分な資金、預金があることを確認して返済してください。
 2. 返済するEulerアカウントを選択します。

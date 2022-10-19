@@ -6,7 +6,7 @@ Eulerで資産を借りると、いつでも返済できるローンが作成さ
 
 ### Step-by-step
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. `Quick Action`から`Borrow`を選択します。
 2. 借入したいEulerアカウントを選択します。十分な担保を預けていることを確認し、資産を市場に投入する。

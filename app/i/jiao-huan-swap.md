@@ -7,18 +7,36 @@ Eulerでの資産交換は、プラットフォームに統合された外部取
 ### Step-by-step
 
 1. 交換したいアカウントに十分な供給資産があることを確認してください。
-2. Select the Euler sub-account that you want to swap from.
-3. Select the Euler sub-account that you want to swap to.
-4. Select the asset you wish to sell.
-5. Select the asset you wish to buy.
-6. Enter the amount you wish to sell.
-   * Select `Safe Max` to sell the amount such that your Euler sub-account will result in having a health score of 1.25.
-   * Select `Liquidation` to sell the amount such that your Euler sub-account will end up at health score 1 (right on the edge of a liquidation).
-   * Select `Max` to sell all the selected asset.
-   * Users can set the `slippage` to the desired value by clicking the `gear icon` in the top-right corner.
-7. Wait for a quote and click the `Swap` button.
+2. 交換元となるEulerアカウントを選択します。
+3. 交換先となるEulerアカウントを選択します。
+4. 売却したい資産を選択します。
+5. 購入したい資産を選択します。
+6. 売りたい金額を入力する。
+   * `Safe Max`を選択すると、Eulerアカウントの健康状態が1.25になるような量で売ることができます。
+   * `Liquidation`を選択すると、Eulerアカウントの健康状態が1（清算寸前）になるような金額で売ることができます。
+   * 選択した資産をすべて売却する場合は、`Max`を選択します。
+   * 右上の歯車のアイコンをクリックすると、希望するスリッページを設定できます。
+7. 見積もりを待ち、Swapボタンをクリックします。
 
 ### FAQ
 
-**Can I swap assets from my wallet?**\
-\*\*\*\*Currently, users can only swap assets they've deposited.
+**自分のウォレットから資産を交換することはできますか？** \
+現在、ユーザーは預けた資産のみを交換することができます。
+
+## Wrap
+
+### About
+
+Wrap は、Wrapされた資産とWrapされていない資産を変換することができる汎用性の高い機能です。最も一般的な使用例としては、イーサリアム（ETH）とWrapされたイーサリアム（WETH）、およびstETHとWrapされたwstETHのWrap・Unwrapの2つが挙げられます。ユーザーは保護担保トークン（pToken）のラッピングとアンラッピングも可能です。
+
+### Step-by-step
+
+1. アカウントに十分な資産があることを確認してください。
+2. WrapまたはUnwrapで資産を選択します。
+3. WrapまたはUnwrapしたい金額を入力してください。
+4. WrapまたはUnwrapボタンをクリックします。
+
+### FAQ
+
+他の資産のWrap/Unwrapは可能ですか？ \
+ドロップダウンに表示されている資産のみできます。
