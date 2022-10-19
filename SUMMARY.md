@@ -15,3 +15,6 @@
   * [借りる](app/i/riru.md)
   * [返済](app/i/fan-ji.md)
   * [鋳造(Mint)](app/i/zhu-zao-mint.md)
+  * [焼却(Burn)](app/i/shao-que-burn.md)
+  * [サブアカウント](app/i/sabuakaunto.md)
+  * [転送(Transfer)](app/i/zhuan-song-transfer.md)
