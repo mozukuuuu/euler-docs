@@ -43,4 +43,17 @@
 
 ## ガバナンス
 
-* [Page 1](gabanansu/page-1.md)
+* [入門](gabanansu/ru-men/README.md)
+  * [ガバナンスの立ち上げ段階](gabanansu/ru-men/gabanansunochige.md)
+* [方法](gabanansu/fang-fa/README.md)
+  * [代議員の議決権](gabanansu/fang-fa/no.md)
+  * [プロポーザルを書く](gabanansu/fang-fa/puropzaruwoku.md)
+  * [Tally（オンチェーン）プロポーザルの作成](gabanansu/fang-fa/tallyonchnpuropzaruno/README.md)
+    * [Snapshot(オフチェーン)プロポーザルの作成](gabanansu/fang-fa/tallyonchnpuropzaruno/snapshotofuchnpuropzaruno.md)
+  * [Tallyで投票（オンチェーン）](gabanansu/fang-fa/tallydeonchn.md)
+  * [Snapshotで投票 (オフチェーン)](gabanansu/fang-fa/snapshotde-ofuchn.md)
+  * [フォーラムに参加する](gabanansu/fang-fa/framunisuru.md)
+* [財務省(トレジャリー)](gabanansu/torejar.md)
+* [助成金](gabanansu/zhu-cheng-jin.md)
+* [コントラクトアドレス](gabanansu/kontorakutoadoresu.md)
+* [パラメーター](gabanansu/paramt.md)
