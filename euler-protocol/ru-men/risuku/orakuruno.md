@@ -18,7 +18,7 @@ Uniswapのオラクルは私たちのパーミッションレスレンディン�
 
 このツールを使って、TWAPを1ブロックと2ブロックにわたって上下に20.89%（最高品質の資産でブレークイーブンするために必要な最低値）動かす場合のコストを計算することができます。
 
-<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
 そして、この4つの値の最小値である4億6,963万ドルを取り、以下の表に従ってレーティングを割り当てます。
 
@@ -28,7 +28,7 @@ Uniswapのオラクルは私たちのパーミッションレスレンディン�
 
 各レンディングプールのフロントエンドページに表示されます。
 
-<figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 _**このツールはあくまでも指標であり、資金が失われた場合の責任は負いかねますのでご了承ください**_。
 
@@ -40,17 +40,17 @@ _**このツールはあくまでも指標であり、資金が失われた場�
 
 良い例は [METIS/WETH](https://info.uniswap.org/#/pools/0x1c98562a2fab5af19d8fb3291a36ac3c618835d9)
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
 悪い例は [HEGIC/WETH](https://info.uniswap.org/#/pools/0xf2c3bd0328bdb6106d34a3bd0df0ef744551cc82), 流動性が超集中している。
 
-<figure><img src="../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 より詳細な説明は、さまざまな操作のシナリオを紹介した[ビデオ](https://www.youtube.com/watch?v=snwUwj3QQ7M\&t=1s)をご覧ください。
 
 ここで重要なのは、完全に普及した流動性が少量であっても、攻撃のコストを大幅に増加させることができる点です。例えば、[ IDLE/WETH](https://info.uniswap.org/#/pools/0x79e42a2bb91a0f9118e2b5231958c1eaefce390c) プールのTVLはわずか$52kですが、攻撃の最小コストはなんと$115millionになります。
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 ### 参考文献
 

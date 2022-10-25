@@ -40,3 +40,7 @@
 * [パラメーター](euler-protocol/paramt/README.md)
   * [金利](euler-protocol/paramt/jin-li.md)
   * [リスクファクター](euler-protocol/paramt/risukufakut.md)
+
+## ガバナンス
+
+* [Page 1](gabanansu/page-1.md)
