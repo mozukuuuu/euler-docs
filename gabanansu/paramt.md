@@ -2,17 +2,13 @@
 
 ### Introduction
 
-This page outlines the governance parameters for both on-chain and off-chain governance.
+このページでは、オンチェーンおよびオフチェーンのガバナンスパラメータについて概説します。
 
 #### Tally (On-Chain) Governance Parameters
 
-This section outlines the governance parameters for the Euler Governance smart contracts (managed via [Tally](https://www.tally.xyz/governance/eip155:1:0xd8E2114f6bCbaee83CDEB1bD6650a28BBcF144D5)). All parameters are displayed in Table 1 below.
+ここでは、Euler Governanceスマートコントラクト（[Tally](https://www.tally.xyz/governance/eip155:1:0xd8E2114f6bCbaee83CDEB1bD6650a28BBcF144D5)で管理）のガバナンスパラメータの概要を説明します。すべてのパラメータは、以下の表1に表示されています。 実行遅延、投票遅延、投票期間は、イーサリアムメインネットでのブロック作成時間を15秒と仮定したものです。 ガバナンススマートコントラクトは、OpenZeppelin  [GovernorSettings.sol module](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/governance/extensions/GovernorSettings.sol) の機能を継承し、Voting Delay、Voting Period、Proposal Thresholdをオンチェーンガバナンス提案と投票プロセスを通じて更新することが可能です。
 
-Execution Delay, Voting Delay and Voting Period are based on the assumption of a 15 seconds block creation time on the Ethereum Mainnet.
-
-The governance smart contract inherits functionality from the OpenZeppelin [GovernorSettings.sol module](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/governance/extensions/GovernorSettings.sol) allowing Voting Delay, Voting Period and Proposal Threshold to be updated through an on-chain governance proposal and voting process.
-
-**Table 1** Euler On-Chain Governance Parameters
+**Table 1** Euler オンチェーン ガバナンス パラメータ
 
 | Parameter          | Value                   |
 | ------------------ | ----------------------- |
@@ -22,19 +18,13 @@ The governance smart contract inherits functionality from the OpenZeppelin [Gove
 | Quorum Numerator   | 3% of EUL Supply        |
 | Proposal Threshold | 75,000 EUL              |
 
-When a governance proposal is created, it enters a 2-day review period (i.e., Voting Delay), after which voting weights are recorded and voting begins.
-
-Voting lasts for 3 days (i.e., Voting Period); once the voting period is over, if quorum was reached (enough voting power participated) and the majority voted in favour, the proposal is considered successful and can proceed to be executed 2 days (48 hours) later (i.e., Execution Delay).
-
-Addresses delegated at least 75,000 EUL can create governance proposals having met the Proposal Threshold.
-
-The image below depicts the on-chain governance phases and durations for each phase:
+ガバナンスの提案が作成されると、2日間の審査期間（＝投票遅延）が設けられ、その後、投票の重みが記録され、投票が開始されます。 投票は3日間（＝投票期間）行われ、投票期間が終了した時点で定足数に達しており（十分な投票力がある）、賛成票が過半数を超えていれば、提案は成功したとみなされ、2日（48時間）後に実行することができます（＝実行ディレイ）。 75,000EUL以上の委任を受けたアドレスは、「提案のしきい値」を満たすことで、ガバナンス提案を作成することができます。 オンチェーンガバナンスのフェーズと各フェーズの期間は下図のとおりです。
 
 #### Snapshot (Off-Chain) Governance Parameters
 
-This section outlines the governance parameters for off-chain governance (managed via [Snapshot](https://snapshot.org/#/eulerdao.eth/proposal/0x3b4b7e79c40df6860e7d612bdccc4969753e283dfd84673dc5fc4d201abcb317)). All parameters are displayed in Table 2 below.
+このセクションでは、オフチェーンガバナンス（[Snapshot](https://snapshot.org/#/eulerdao.eth/proposal/0x3b4b7e79c40df6860e7d612bdccc4969753e283dfd84673dc5fc4d201abcb317)で管理）のためのガバナンスパラメータの概要を説明します。すべてのパラメータは以下の表2に表示されています。
 
-**Table 2** Euler Off-Chain Governance Parameters
+**Table 2** Euler オフチェーン ガバナンス パラメーター
 
 | Parameter          | Value     |
 | ------------------ | --------- |
@@ -42,6 +32,4 @@ This section outlines the governance parameters for off-chain governance (manage
 | Quorum             | 1,000 EUL |
 | Proposal Threshold | 50 EUL    |
 
-There is no voting delay or execution delay for the off-chain governance process, given there is no direct effect on the protocol's smart contracts.
-
-Addresses holding or delegated at least 50 EUL can create governance proposals having met the Proposal Threshold. With regard to voting power, the delegated voting power or EUL balance at the proposal creation block number is counted towards voting power. The [Snapshot voting strategies](https://docs.snapshot.org/strategies/what-is-a-strategy) enabled are `erc20-balance-of` and `erc20-votes`.
+プロトコルのスマートコントラクトに直接的な影響がないため、オフチェーンガバナンスプロセスの投票遅延や実行遅延はありません。 50以上のEULを保有または委任されたアドレスは、提案しきい値を満たすことでガバナンス提案を作成することができます。議決権に関しては、委任された議決権またはプロポーザル作成ブロック番号のEUL残高が議決権にカウントされます。[Snapshot voting strategies](https://docs.snapshot.org/strategies/what-is-a-strategy) 投票方法は、`erc20-balance-of` と `erc20-votes`です。&#x20;

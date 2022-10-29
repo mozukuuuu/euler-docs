@@ -2,4 +2,4 @@
 
 ### Introduction
 
-To encourage developers to build on top of Euler protocol and help integrate it into the wider DeFi ecosystem, a portion of the Euler Treasury will be allocated to a Grants programme. The purpose of the grants is to foster the growth of Euler protocol by establishing a culture of community-driven development, where individuals making improvements to the Euler Protocol get a say in its future.
+開発者がEulerプロトコルの上に構築し、より広いDeFiエコシステムに統合することを奨励するために、Euler Treasuryの一部は助成金プログラムに割り当てられます。助成金の目的は、コミュニティ主導の開発文化を確立することによって、Eulerプロトコルの成長を促進し、Eulerプロトコルを改良している個人がその将来について発言できるようにすることです。

@@ -2,7 +2,7 @@
 
 ### Networks
 
-The EulerDAO is currently deployed to the following networks:
+現在、EulerDAOは以下のネットワークに配備されています。
 
 #### Mainnet
 
